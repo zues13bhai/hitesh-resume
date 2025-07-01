@@ -186,7 +186,7 @@ function App() {
       description: "Intelligent resume builder powered by AI that creates professional resumes with smart suggestions and ATS optimization.",
       tech: ["React", "TypeScript", "OpenAI API", "Tailwind CSS", "Firebase"],
       github: "https://github.com/zues13bhai",
-      live: "https://resumebuilderai.netlify.app",
+      live: "https://ats-resumebuilder-1.netlify.app",
       image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=600",
       category: "AI",
       featured: true
