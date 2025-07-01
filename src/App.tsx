@@ -180,47 +180,154 @@ function App() {
     }
   ];
 
-  const projects: Project[] = [
-    {
-      title: "AI Resume Builder",
-      description: "Intelligent resume builder powered by AI that creates professional resumes with smart suggestions and ATS optimization.",
-      tech: ["React", "TypeScript", "OpenAI API", "Tailwind CSS", "Firebase"],
-      github: "https://github.com/zues13bhai",
-      live: "https://ats-resumebuilder-1.netlify.app",
-      image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=600",
-      category: "AI",
-      featured: true
-    },
-    {
-      title: "AI Assistant App",
-      description: "Conversational AI assistant with natural language processing, task automation, and personalized responses.",
-      tech: ["React", "Node.js", "OpenAI", "WebSocket", "MongoDB"],
-      github: "https://github.com/zues13bhai",
-      live: "https://hitesh-ai.netlify.app",
-      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600",
-      category: "AI",
-      featured: true
-    },
-    {
-      title: "E-commerce Store",
-      description: "Full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.",
-      tech: ["React", "Redux", "Stripe", "Firebase", "Material-UI"],
-      github: "https://github.com/zues13bhai",
-      live: "https://siwachinterprices.netlify.app",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-      category: "Web App",
-      featured: true
-    },
-    {
-      title: "Smart Chatbot",
-      description: "Intelligent chatbot with context awareness, multi-language support, and integration capabilities.",
-      tech: ["Python", "NLP", "React", "FastAPI", "PostgreSQL"],
-      github: "https://github.com/zues13bhai",
-      live: "https://dummychatbot.netlify.app",
-      image: "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=600",
-      category: "AI"
-    }
-  ];
+// ProjectGallery.tsx
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const projects = [
+  {
+    title: "E-commerce Store",
+    description:
+      "Full-featured e-commerce platform with payment integration, inventory management, and an admin dashboard. Built for scalability and user-friendly design.",
+    tech: ["React", "Redux", "Stripe", "Firebase", "Material-UI"],
+    github: "https://github.com/zues13bhai",
+    live: "https://siwachinterprices.netlify.app",
+    image:
+      "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800&fit=crop",
+    category: "Web App",
+  },
+  {
+    title: "AI Resume Builder",
+    description:
+      "Smart resume builder with AI-driven suggestions, ATS optimization, and live preview. Speech-to-text and prompt-powered enhancement included.",
+    tech: ["React", "TypeScript", "OpenAI API", "Tailwind CSS", "Firebase"],
+    github: "https://github.com/zues13bhai",
+    live: "https://ats-resumebuilder-1.netlify.app",
+    image:
+      "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=800&fit=crop",
+    category: "AI",
+  },
+  {
+    title: "AI Assistant App",
+    description:
+      "Conversational AI assistant with task automation, natural language understanding, and real-time intelligent replies. Ideal for task support and learning.",
+    tech: ["React", "Node.js", "OpenAI", "WebSocket", "MongoDB"],
+    github: "https://github.com/zues13bhai",
+    live: "https://hitesh-ai.netlify.app",
+    image:
+      "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800&fit=crop",
+    category: "AI",
+  },
+  {
+    title: "Smart Chatbot",
+    description:
+      "Multilingual chatbot with context awareness, language switching, and natural conversation flow. Integrates AI and NLP for advanced interaction.",
+    tech: ["Python", "NLP", "React", "FastAPI", "PostgreSQL"],
+    github: "https://github.com/zues13bhai",
+    live: "https://dummychatbot.netlify.app",
+    image:
+      "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=800&fit=crop",
+    category: "AI",
+  },
+];
+
+export default function ProjectGallery() {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+      {projects.map((project, index) => (
+        <ProjectCard key={index} project={project} />
+      ))}
+    </div>
+  );
+}
+
+function ProjectCard({ project }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <>
+      <motion.div
+        whileHover={{ scale: 1.03 }}
+        transition={{ duration: 0.3 }}
+        onClick={() => setIsOpen(true)}
+        className="cursor-pointer bg-white dark:bg-zinc-900 shadow-lg rounded-xl overflow-hidden"
+      >
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full h-48 object-cover"
+        />
+        <div className="p-4">
+          <h2 className="text-xl font-semibold">{project.title}</h2>
+          <p className="text-sm text-gray-500">{project.category}</p>
+        </div>
+      </motion.div>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsOpen(false)}
+          >
+            <motion.div
+              className="bg-white dark:bg-zinc-900 rounded-2xl p-6 w-full max-w-2xl relative"
+              initial={{ scale: 0.9 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.9 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                className="absolute top-4 right-4 text-2xl text-gray-500 hover:text-red-500"
+                onClick={() => setIsOpen(false)}
+              >
+                ×
+              </button>
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full rounded-xl mb-4"
+              />
+              <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
+              <p className="text-gray-600 dark:text-gray-300">{project.description}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {project.tech.map((tech, i) => (
+                  <span
+                    key={i}
+                    className="text-sm bg-gray-200 dark:bg-zinc-700 px-3 py-1 rounded-full"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="mt-6 flex justify-between">
+                <a
+                  href={project.live}
+                  className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href={project.github}
+                  className="px-4 py-2 bg-gray-300 dark:bg-zinc-800 text-black dark:text-white rounded-lg hover:bg-gray-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Code
+                </a>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
+  );
+}
+
 
   const skills: Skill[] = [
     { name: "React", level: 95, category: "Frontend", icon: "⚛️" },
