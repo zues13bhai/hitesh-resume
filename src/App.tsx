@@ -218,7 +218,7 @@ function App() {
       tech: ["Python", "NLP", "React", "FastAPI", "PostgreSQL"],
       github: "https://github.com/zues13bhai",
       live: "https://dummychatbot.netlify.app",
-      image: "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://imgs.search.brave.com/WQGKVJHi-N1AtG8KsD07uIBnxvU1Lj8JWUFkDlTG6XY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9haS1jaGF0Ym90/LWludGVsbGlnZW50/LWRpZ2l0YWwtYnVz/aW5lc3Mtc2Vydmlj/ZS1hcHBsaWNhdGlv/bi1jb25jZXB0LWNv/bXB1dGVyLW1vYmls/ZS1hcHBsaWNhdGlv/bl85MTU5NTUtNTk0/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDA",
       category: "AI"
     }
   ];
