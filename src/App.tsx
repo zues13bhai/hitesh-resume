@@ -216,7 +216,7 @@ function App() {
       title: "Smart Chatbot",
       description: "Intelligent chatbot with context awareness, multi-language support, and integration capabilities.",
       tech: ["Python", "NLP", "React", "FastAPI", "PostgreSQL"],
-      github: "https://github.com/zues13bhai",
+      github: "https://github.com/zues13bhai/siwach-chatbot",
       live: "https://dummychatbot.netlify.app",
       image: "https://imgs.search.brave.com/6d68vqEzk_822zT6xNApqcraNmTFl53bTcU4YfKdX4Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ4/NzYzNzE2Ni9waG90/by9haS1jaGF0Ym90/LXVzYWdlLWFydGlm/aWNpYWwtaW50ZWxs/aWdlbmNlLWNoYXQt/Ym90LWNvbmNlcHQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVh4dDJ0eTA0aFFC/RlpvRl9KT3Y0UnN4/aVJXMnBVcUpfTU1G/WmNZWENORVk9",
       category: "AI"
