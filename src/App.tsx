@@ -1387,7 +1387,7 @@ function App() {
                       {
                         icon: Mail,
                         label: "Email",
-                        value: "hiteshsiwach@example.com",
+                        value: "theoriginalhitesh@gmail.com",
                         href: "mailto:hiteshsiwach@example.com"
                       },
                       {
