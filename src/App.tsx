@@ -1,8 +1,8 @@
 import React from 'react';
-import { ProjectShowcase } from './components/ProjectShowcase';
+import { ProjectThumbnailsDemo } from './components/ProjectThumbnailsDemo';
 
 function App() {
-  return <ProjectShowcase />;
+  return <ProjectThumbnailsDemo />;
 }
 
 export default App;
