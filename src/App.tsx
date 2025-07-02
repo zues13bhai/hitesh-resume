@@ -187,7 +187,7 @@ function App() {
       tech: ["React", "Redux", "Stripe", "Firebase", "Material-UI"],
       github: "https://github.com/zues13bhai",
       live: "https://siwachinterprices.netlify.app",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://imgs.search.brave.com/2zf04HH3Ct1gK3flmQYqKyC3cE98nQzMbak09SZWUQA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzA0Lzk4Lzc4/LzM2MF9GXzYwNDk4/NzgwMF9QVnZzT0J0/VUg2bXZSMVNBZnV2/T09HTThhSTViQlFM/Ti5qcGc",
       category: "Web App",
       featured: true
     },
