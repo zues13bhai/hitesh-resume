@@ -196,7 +196,7 @@ function App() {
       tech: ["React", "TypeScript", "OpenAI API", "Tailwind CSS", "Firebase"],
       github: "https://github.com/zues13bhai",
       live: "https://resumebuilderai.netlify.app",
-      image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://imgs.search.brave.com/H_aTGVi7bPjJdsIpM9VbJ8uc0-b-tpNMo7h5unHoQkk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zd29v/cGVkLmNvL3dwLWNv/bnRlbnQvdGhlbWVz/L3N3b29wZWQtbGFu/ZGluZy1wYWdlcy9p/bWFnZXMvc3dvb3Bl/ZC1oZXJvLnBuZw",
       category: "AI",
       featured: true
      
