@@ -207,7 +207,7 @@ function App() {
       tech: ["React", "Node.js", "OpenAI", "WebSocket", "MongoDB"],
       github: "https://github.com/zues13bhai",
       live: "https://hitesh-ai.netlify.app",
-      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://imgs.search.brave.com/wr3hwMuIPQ81EXFCELN_pb0Anfyj2nSCU7ZbD4M0m8o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA4LzU3LzI3LzMz/LzM2MF9GXzg1NzI3/MzM1OF9HT3VTU0RX/cnZhcldQdTQ5MTFu/VEREMnB4YVN1SnBQ/aS5qcGc",
       category: "AI",
       featured: true
     },
