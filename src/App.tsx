@@ -182,7 +182,7 @@ function App() {
 
   const projects: Project[] = [
     {
-       title: "E-commerce Store",
+       title: "Siwach Enterprices",
       description: "Full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.",
       tech: ["React", "Redux", "Stripe", "Firebase", "Material-UI"],
       github: "https://github.com/zues13bhai",
