@@ -218,7 +218,7 @@ function App() {
       tech: ["Python", "NLP", "React", "FastAPI", "PostgreSQL"],
       github: "https://github.com/zues13bhai",
       live: "https://dummychatbot.netlify.app",
-      image: "https://imgs.search.brave.com/WQGKVJHi-N1AtG8KsD07uIBnxvU1Lj8JWUFkDlTG6XY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9haS1jaGF0Ym90/LWludGVsbGlnZW50/LWRpZ2l0YWwtYnVz/aW5lc3Mtc2Vydmlj/ZS1hcHBsaWNhdGlv/bi1jb25jZXB0LWNv/bXB1dGVyLW1vYmls/ZS1hcHBsaWNhdGlv/bl85MTU5NTUtNTk0/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDA",
+      image: "https://imgs.search.brave.com/6d68vqEzk_822zT6xNApqcraNmTFl53bTcU4YfKdX4Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ4/NzYzNzE2Ni9waG90/by9haS1jaGF0Ym90/LXVzYWdlLWFydGlm/aWNpYWwtaW50ZWxs/aWdlbmNlLWNoYXQt/Ym90LWNvbmNlcHQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVh4dDJ0eTA0aFFC/RlpvRl9KT3Y0UnN4/aVJXMnBVcUpfTU1G/WmNZWENORVk9",
       category: "AI"
     }
   ];
