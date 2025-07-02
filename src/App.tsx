@@ -182,7 +182,16 @@ function App() {
 
   const projects: Project[] = [
     {
-      title: "AI Resume Builder",
+       title: "E-commerce Store",
+      description: "Full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.",
+      tech: ["React", "Redux", "Stripe", "Firebase", "Material-UI"],
+      github: "https://github.com/zues13bhai",
+      live: "https://siwachinterprices.netlify.app",
+      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
+      category: "Web App",
+      featured: true
+    },
+    { title: "AI Resume Builder",
       description: "Intelligent resume builder powered by AI that creates professional resumes with smart suggestions and ATS optimization.",
       tech: ["React", "TypeScript", "OpenAI API", "Tailwind CSS", "Firebase"],
       github: "https://github.com/zues13bhai",
@@ -190,6 +199,7 @@ function App() {
       image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=600",
       category: "AI",
       featured: true
+     
     },
     {
       title: "AI Assistant App",
@@ -201,16 +211,7 @@ function App() {
       category: "AI",
       featured: true
     },
-    {
-      title: "E-commerce Store",
-      description: "Full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.",
-      tech: ["React", "Redux", "Stripe", "Firebase", "Material-UI"],
-      github: "https://github.com/zues13bhai",
-      live: "https://siwachinterprices.netlify.app",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-      category: "Web App",
-      featured: true
-    },
+   
     {
       title: "Smart Chatbot",
       description: "Intelligent chatbot with context awareness, multi-language support, and integration capabilities.",
