@@ -186,7 +186,7 @@ function App() {
       description: "Full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.",
       tech: ["React", "Redux", "Stripe", "Firebase", "Material-UI"],
       github: "https://github.com/zues13bhai",
-      live: "https://siwachinterprices.netlify.app",
+      live: "https://siwachenterprices.netlify.app",
       image: "https://imgs.search.brave.com/2zf04HH3Ct1gK3flmQYqKyC3cE98nQzMbak09SZWUQA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzA0Lzk4Lzc4/LzM2MF9GXzYwNDk4/NzgwMF9QVnZzT0J0/VUg2bXZSMVNBZnV2/T09HTThhSTViQlFM/Ti5qcGc",
       category: "Web App",
       featured: true
