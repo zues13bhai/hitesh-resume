@@ -1,1 +1,1 @@
-mkdir -p src/styles && echo ".orb-container {\n  position: absolute;\n  inset: 0;\n  width: 100%;\n  height: 100%;\n  pointer-events: none;\n  z-index: -10;\n}" > src/styles/Orb.css
+mkdir -p src/styles && echo ".orb-container {\n  position: absolute;\n  inset: 0;\n  width: 100%;\n  height: 100%;\n  pointer-events: none;\n  z-index: -10;\n}" 
