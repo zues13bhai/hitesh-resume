@@ -32,7 +32,8 @@ import {
   Target,
   CheckCircle
 } from 'lucide-react';
-import Orb from '@/components/Orb';
+import { Orb } from './components/Orb';
+
 
 interface Product {
   id: number;
