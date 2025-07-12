@@ -32,7 +32,7 @@ import {
   Target,
   CheckCircle
 } from 'lucide-react';
-import { TechBackground } from './components/TechBackground';
+import Orb from '@/components/Orb';
 
 interface Product {
   id: number;
