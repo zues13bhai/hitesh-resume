@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { Renderer, Program, Mesh, Triangle, Vec3 } from 'ogl';
-import './Orb.css';
+import "../styles/orb.css";
+
 
 interface OrbProps {
   hue?: number;
