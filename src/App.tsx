@@ -376,7 +376,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायता करते हैं और प्रभावित करते हैं।",
+          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करें",
       },
@@ -904,9 +904,35 @@ function App() {
         {/* Projects Section */}
         <section
           id="projects"
-          className="py-20 bg-gray-50 dark:bg-gray-800/50 relative"
+          className="py-20 bg-gray-50 dark:bg-gray-800/50 relative overflow-hidden"
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <GridMotion
+            items={[
+              "🚀",
+              "⚡",
+              "🌟",
+              "💻",
+              "🎯",
+              "🔥",
+              "✨",
+              "AI",
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Python",
+              "Node.js",
+              "GSAP",
+              "🤖",
+              "🌈",
+              "💎",
+              "🎨",
+              "🔮",
+              "⭐",
+              "🌙",
+            ]}
+            gradientColor="rgba(59, 130, 246, 0.1)"
+          />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
