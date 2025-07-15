@@ -602,26 +602,45 @@ function App() {
             `,
           }}
         >
-          {/* Multiple orbs for enhanced background effect */}
+          {/* Cosmic background elements */}
           <div className="absolute inset-0 z-0">
+            {/* Animated stars */}
+            <div className="absolute inset-0 opacity-30">
+              {[...Array(50)].map((_, i) => (
+                <div
+                  key={i}
+                  className="absolute w-1 h-1 bg-white rounded-full animate-pulse"
+                  style={{
+                    left: `${Math.random() * 100}%`,
+                    top: `${Math.random() * 100}%`,
+                    animationDelay: `${Math.random() * 3}s`,
+                    animationDuration: `${2 + Math.random() * 2}s`,
+                  }}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* Multiple orbs for enhanced background effect */}
+          <div className="absolute inset-0 z-0 opacity-80">
             <Orb
-              hue={220}
-              hoverIntensity={0.3}
+              hue={240}
+              hoverIntensity={0.4}
               rotateOnHover={true}
               forceHoverState={false}
             />
           </div>
           <div className="absolute inset-0 z-0 opacity-60">
             <Orb
-              hue={280}
-              hoverIntensity={0.4}
+              hue={300}
+              hoverIntensity={0.3}
               rotateOnHover={true}
               forceHoverState={false}
             />
           </div>
           <div className="absolute inset-0 z-0 opacity-40">
             <Orb
-              hue={180}
+              hue={200}
               hoverIntensity={0.2}
               rotateOnHover={false}
               forceHoverState={true}
