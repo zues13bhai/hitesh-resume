@@ -236,25 +236,30 @@ function App() {
       type: "education",
     },
     {
-      title: "IBM AI Engineering Professional Certificate",
-      company: "IBM via Coursera",
+      title: "Prompt Engineering Certificate",
+      company: "IBM",
       duration: "2024",
       description:
-        "Comprehensive program covering machine learning, deep learning, and AI application development. Completed hands-on projects with real datasets.",
-      skills: ["TensorFlow", "Keras", "Computer Vision", "NLP"],
-      type: "certification",
-    },
-    {
-      title: "Prompt Engineering Expert",
-      company: "University of Michigan",
-      duration: "2024",
-      description:
-        "Advanced certification in prompt engineering techniques, AI model optimization, and practical applications in business workflows.",
+        "Professional certification in advanced prompt engineering techniques, AI model optimization, and practical applications in business workflows.",
       skills: [
         "Prompt Design",
         "AI Optimization",
         "Business Applications",
         "LLM Integration",
+      ],
+      type: "certification",
+    },
+    {
+      title: "Python for Everybody",
+      company: "University of Michigan",
+      duration: "2024",
+      description:
+        "Comprehensive Python programming certification covering data structures, web scraping, databases, and data visualization with practical projects.",
+      skills: [
+        "Python Programming",
+        "Data Structures",
+        "Web Scraping",
+        "Database Management",
       ],
       type: "certification",
     },
@@ -357,7 +362,7 @@ function App() {
       nav: {
         home: "होम",
         about: "परिचय",
-        projects: "प्रोजेक्���्स",
+        projects: "प्रोजेक्ट्स",
         skills: "कौशल",
         experience: "अनुभव",
         achievements: "उपलब्धियां",
