@@ -376,7 +376,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिमान सिस्टम बनाता ���ूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
+          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करे���",
       },
@@ -550,7 +550,7 @@ function App() {
                 {/* Mobile Menu Toggle */}
                 <motion.button
                   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                  className="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                  className="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
