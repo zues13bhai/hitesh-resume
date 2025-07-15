@@ -365,16 +365,16 @@ function App() {
       nav: {
         home: "होम",
         about: "परिचय",
-        projects: "प्रोजेक्ट्स",
+        projects: "प्रोजेक���ट्स",
         skills: "कौशल",
         experience: "अनुभव",
         achievements: "उपलब्धियां",
-        testimonials: "प्रशंसापत्��",
+        testimonials: "प्रशंसापत्र",
         contact: "संपर्क",
       },
       hero: {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
-        title: "AI इंजीनि��र और फुल-स्टैक डेवलपर",
+        title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
           "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
@@ -1425,8 +1425,34 @@ function App() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-20 relative">
+        <section id="contact" className="py-20 relative overflow-hidden">
           <Orb />
+          <GridMotion
+            items={[
+              "📧",
+              "💬",
+              "🤝",
+              "🌟",
+              "🚀",
+              "💼",
+              "✨",
+              "Contact",
+              "Hire",
+              "Collaborate",
+              "Build",
+              "Create",
+              "Connect",
+              "Work",
+              "📞",
+              "💻",
+              "🎯",
+              "⚡",
+              "🔥",
+              "🌈",
+              "🎨",
+            ]}
+            gradientColor="rgba(139, 92, 246, 0.1)"
+          />
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
