@@ -262,21 +262,21 @@ function App() {
 
   const achievements: Achievement[] = [
     {
-      title: "IBM AI Engineering Professional Certificate",
-      issuer: "IBM via Coursera",
+      title: "Prompt Engineering Certificate",
+      issuer: "IBM",
       date: "2024",
       description:
-        "Comprehensive program covering machine learning, deep learning, and AI application development.",
-      badge: "🏆",
+        "Professional certification in advanced prompt engineering techniques, AI model optimization, and practical applications in business workflows.",
+      badge: "🎯",
       verified: true,
     },
     {
-      title: "Prompt Engineering Expert",
+      title: "Python for Everybody",
       issuer: "University of Michigan",
       date: "2024",
       description:
-        "Advanced certification in prompt engineering techniques and AI model optimization.",
-      badge: "🎯",
+        "Comprehensive Python programming certification covering data structures, web scraping, databases, and data visualization.",
+      badge: "🐍",
       verified: true,
     },
     {
@@ -357,7 +357,7 @@ function App() {
       nav: {
         home: "होम",
         about: "परिचय",
-        projects: "प्रोजेक्ट्स",
+        projects: "प्रोजेक्���्स",
         skills: "कौशल",
         experience: "अनुभव",
         achievements: "उपलब्धियां",
