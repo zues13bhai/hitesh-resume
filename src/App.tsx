@@ -376,7 +376,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और ���्रभावित करते हैं।",
+          "बुद्��िमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करे���",
       },
@@ -492,7 +492,7 @@ function App() {
                 <div className="relative">
                   <motion.button
                     onClick={() => setLanguageDropdown(!languageDropdown)}
-                    className="flex items-center space-x-1 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                    className="flex items-center space-x-1 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors"
                     whileHover={{ scale: 1.05 }}
                   >
                     <Languages className="w-4 h-4" />
