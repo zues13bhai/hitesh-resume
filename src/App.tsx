@@ -376,7 +376,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� क���ते हैं और प्रभावित करते हैं।",
+          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करे���",
       },
@@ -450,7 +450,7 @@ function App() {
       <div className="bg-white dark:bg-black text-gray-900 dark:text-white">
         {/* Navigation */}
         <motion.nav
-          className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-white/80 dark:bg-gray-900/80 border-b border-gray-200/20 dark:border-gray-700/20"
+          className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-white/80 dark:bg-black/90 border-b border-gray-200/20 dark:border-gray-800/30"
           initial={{ y: -100 }}
           animate={{ y: 0 }}
           transition={{ duration: 0.5 }}
@@ -1062,7 +1062,7 @@ function App() {
               "⚡",
               "🌟",
               "💻",
-              "����",
+              "🎯",
               "🔥",
               "✨",
               "AI",
