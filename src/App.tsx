@@ -1065,8 +1065,16 @@ function App() {
         </section>
 
         {/* Skills Section */}
-        <section id="skills" className="py-20 relative">
+        <section id="skills" className="py-20 relative overflow-hidden">
           <Orb />
+          <ShapeBlur
+            variation={1}
+            shapeSize={0.8}
+            roundness={0.3}
+            borderSize={0.08}
+            circleSize={0.6}
+            circleEdge={0.8}
+          />
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
