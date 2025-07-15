@@ -369,12 +369,12 @@ function App() {
         skills: "कौशल",
         experience: "अनुभव",
         achievements: "उपलब्धियां",
-        testimonials: "प्रशंसापत्र",
+        testimonials: "प्रशंसापत्��",
         contact: "संपर्क",
       },
       hero: {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
-        title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
+        title: "AI इंजीनि��र और फुल-स्टैक डेवलपर",
         subtitle:
           "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
@@ -820,6 +820,35 @@ function App() {
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="space-y-6"
+              >
+                {/* Premium 3D Profile Card */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.2, duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="flex justify-center mb-8"
+                >
+                  <ProfileCard
+                    name="Hitesh Siwach"
+                    title="AI Engineer & Full-Stack Developer"
+                    handle="zues13bhai"
+                    status="Available for Hire"
+                    contactText="Hire Me"
+                    avatarUrl="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+                    enableTilt={true}
+                    showUserInfo={true}
+                    onContactClick={() => scrollToSection("contact")}
+                  />
+                </motion.div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
                 className="space-y-6"
               >
