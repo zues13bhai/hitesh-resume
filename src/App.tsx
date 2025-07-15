@@ -637,7 +637,7 @@ function App() {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="space-y-8 backdrop-blur-xs bg-black/10 dark:bg-white/5 rounded-3xl p-8"
+              className="space-y-8"
             >
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -1479,11 +1479,11 @@ function App() {
           <Orb />
           <GridMotion
             items={[
-              "��",
+              "📧",
               "💬",
               "🤝",
               "🌟",
-              "🚀",
+              "��",
               "💼",
               "✨",
               "Contact",
