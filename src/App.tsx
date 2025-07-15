@@ -365,7 +365,7 @@ function App() {
       nav: {
         home: "होम",
         about: "परिचय",
-        projects: "प्रोजेक���ट्स",
+        projects: "प्रोजेक्ट्स",
         skills: "कौशल",
         experience: "अनुभव",
         achievements: "उपलब्धियां",
@@ -837,7 +837,7 @@ function App() {
                     handle="zues13bhai"
                     status="Available for Hire"
                     contactText="Hire Me"
-                    avatarUrl="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+                    avatarUrl="https://cdn.builder.io/api/v1/image/assets%2Ffa667d61b04349a1b5f967185269a859%2F01b306b2aec4445ebaec2bba4405b00f?format=webp&width=800"
                     enableTilt={true}
                     showUserInfo={true}
                     onContactClick={() => scrollToSection("contact")}
