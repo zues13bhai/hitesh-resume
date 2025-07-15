@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "framer-motion": "^10.18.0",
+    "gsap": "^3.13.0",
     "lucide-react": "^0.344.0",
     "ogl": "^1.0.11",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "three": "^0.178.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
