@@ -594,7 +594,31 @@ function App() {
           id="home"
           className="relative min-h-screen flex items-center justify-center overflow-hidden"
         >
-          <Orb />
+          {/* Multiple orbs for enhanced background effect */}
+          <div className="absolute inset-0 z-0">
+            <Orb
+              hue={220}
+              hoverIntensity={0.3}
+              rotateOnHover={true}
+              forceHoverState={false}
+            />
+          </div>
+          <div className="absolute inset-0 z-0 opacity-60">
+            <Orb
+              hue={280}
+              hoverIntensity={0.4}
+              rotateOnHover={true}
+              forceHoverState={false}
+            />
+          </div>
+          <div className="absolute inset-0 z-0 opacity-40">
+            <Orb
+              hue={180}
+              hoverIntensity={0.2}
+              rotateOnHover={false}
+              forceHoverState={true}
+            />
+          </div>
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <motion.div
