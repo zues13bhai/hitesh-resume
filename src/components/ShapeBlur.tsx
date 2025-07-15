@@ -203,7 +203,6 @@ const ShapeBlur: React.FC<ShapeBlurProps> = ({
         cancelAnimationFrame(animationRef.current);
       }
 
-      const currentMount = mountRef.current;
       if (currentMount && rendererRef.current) {
         currentMount.removeChild(rendererRef.current.domElement);
       }
