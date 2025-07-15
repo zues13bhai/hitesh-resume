@@ -604,17 +604,47 @@ function App() {
         >
           {/* Cosmic background elements */}
           <div className="absolute inset-0 z-0">
-            {/* Animated stars */}
-            <div className="absolute inset-0 opacity-30">
-              {[...Array(50)].map((_, i) => (
+            {/* Animated cosmic stars */}
+            <div className="absolute inset-0 opacity-40">
+              {[...Array(80)].map((_, i) => {
+                const size = Math.random() * 3 + 1;
+                const color = [
+                  "#ffffff",
+                  "#a855f7",
+                  "#3b82f6",
+                  "#06b6d4",
+                  "#f59e0b",
+                ][Math.floor(Math.random() * 5)];
+                return (
+                  <div
+                    key={i}
+                    className="absolute rounded-full"
+                    style={{
+                      width: `${size}px`,
+                      height: `${size}px`,
+                      backgroundColor: color,
+                      left: `${Math.random() * 100}%`,
+                      top: `${Math.random() * 100}%`,
+                      animation: `pulse ${2 + Math.random() * 3}s ease-in-out infinite`,
+                      animationDelay: `${Math.random() * 5}s`,
+                      boxShadow: `0 0 ${size * 2}px ${color}`,
+                    }}
+                  />
+                );
+              })}
+            </div>
+
+            {/* Floating cosmic particles */}
+            <div className="absolute inset-0 opacity-20">
+              {[...Array(20)].map((_, i) => (
                 <div
                   key={i}
-                  className="absolute w-1 h-1 bg-white rounded-full animate-pulse"
+                  className="absolute w-2 h-2 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full"
                   style={{
                     left: `${Math.random() * 100}%`,
                     top: `${Math.random() * 100}%`,
-                    animationDelay: `${Math.random() * 3}s`,
-                    animationDuration: `${2 + Math.random() * 2}s`,
+                    animation: `float ${4 + Math.random() * 4}s ease-in-out infinite`,
+                    animationDelay: `${Math.random() * 6}s`,
                   }}
                 />
               ))}
@@ -1781,7 +1811,7 @@ function App() {
               "💼",
               "📧",
               "🤝",
-              "���",
+              "🎯",
               "💡",
               "🌈",
               "⚡",
