@@ -105,7 +105,8 @@ const ShapeBlur: React.FC<ShapeBlurProps> = ({
   const animationRef = useRef<number>();
 
   useEffect(() => {
-    if (!mountRef.current) return;
+    const currentMount = mountRef.current;
+    if (!currentMount) return;
 
     // Scene setup
     const scene = new THREE.Scene();
