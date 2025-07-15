@@ -595,10 +595,10 @@ function App() {
           className="relative min-h-screen flex items-center justify-center overflow-hidden"
           style={{
             background: `
-              radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-              radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
-              radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%),
-              linear-gradient(135deg, #0F0C29 0%, #302B63 25%, #24243e 50%, #24243e 75%, #0F0C29 100%)
+              radial-gradient(circle at 20% 80%, rgba(75, 0, 130, 0.2) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(139, 69, 19, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 40% 40%, rgba(25, 25, 112, 0.15) 0%, transparent 50%),
+              linear-gradient(135deg, #000000 0%, #0a0a0a 25%, #1a1a1a 50%, #0a0a0a 75%, #000000 100%)
             `,
           }}
         >
