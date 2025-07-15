@@ -376,7 +376,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
+          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और ���्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करे���",
       },
@@ -476,7 +476,7 @@ function App() {
                     className={`px-3 py-2 rounded-lg transition-all duration-300 ${
                       activeSection === key
                         ? "bg-blue-500 text-white"
-                        : "hover:bg-gray-100 dark:hover:bg-gray-800"
+                        : "hover:bg-gray-100 dark:hover:bg-gray-900"
                     }`}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
