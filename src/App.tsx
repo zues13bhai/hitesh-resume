@@ -620,6 +620,18 @@ function App() {
             />
           </div>
 
+          {/* Centered orb behind text */}
+          <div className="absolute inset-0 z-5 flex items-center justify-center">
+            <div className="w-[800px] h-[800px] opacity-80">
+              <Orb
+                hue={240}
+                hoverIntensity={0.6}
+                rotateOnHover={true}
+                forceHoverState={false}
+              />
+            </div>
+          </div>
+
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
