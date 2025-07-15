@@ -376,7 +376,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिम���न सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
+          "बुद्धिमान ���िस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करे���",
       },
@@ -973,7 +973,7 @@ function App() {
                         desc: "I break down complex problems into clear, actionable solutions",
                       },
                       {
-                        icon: "🤝",
+                        icon: "����",
                         title: "Strong Communication",
                         desc: "Bilingual (English + Hindi) with excellent presentation skills",
                       },
@@ -1040,7 +1040,7 @@ function App() {
         {/* Projects Section */}
         <section
           id="projects"
-          className="py-20 bg-gray-50 dark:bg-gray-800/50 relative overflow-hidden"
+          className="py-20 bg-gray-50 dark:bg-gray-950/80 relative overflow-hidden"
         >
           <GridMotion
             items={[
