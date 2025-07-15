@@ -376,7 +376,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिमा�� ���िस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
+          "बुद्धिमान ���िस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करे���",
       },
@@ -1783,7 +1783,7 @@ function App() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-gray-900 text-white py-12 relative overflow-hidden">
+        <footer className="bg-black text-white py-12 relative overflow-hidden">
           <GridMotion
             items={[
               projects[0]?.image ||
