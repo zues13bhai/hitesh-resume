@@ -373,12 +373,12 @@ function App() {
         contact: "संपर्क",
       },
       hero: {
-        greeting: "न���स्ते, मैं हितेश सिवाच हूं",
+        greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
           "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
-        cta2: "रिज्यूमे डाउनलोड करें",
+        cta2: "रिज्यूमे डाउनलोड करे���",
       },
     },
   };
@@ -1676,8 +1676,42 @@ function App() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-gray-900 text-white py-12 relative">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <footer className="bg-gray-900 text-white py-12 relative overflow-hidden">
+          <GridMotion
+            items={[
+              projects[0]?.image ||
+                "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=400&q=80",
+              projects[1]?.image ||
+                "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=400&q=80",
+              projects[2]?.image ||
+                "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=400&q=80",
+              projects[3]?.image ||
+                "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=400&q=80",
+              "🏆",
+              "⭐",
+              "🌟",
+              "💫",
+              "✨",
+              "🔥",
+              "🚀",
+              "Portfolio",
+              "Projects",
+              "Skills",
+              "Contact",
+              "Hire",
+              "Developer",
+              "AI",
+              "💼",
+              "📧",
+              "🤝",
+              "🎯",
+              "💡",
+              "🌈",
+              "⚡",
+            ]}
+            gradientColor="rgba(139, 92, 246, 0.15)"
+          />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid md:grid-cols-3 gap-8">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
