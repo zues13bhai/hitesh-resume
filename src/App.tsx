@@ -11,28 +11,18 @@ import {
   ExternalLink,
   Code,
   Brain,
-  Zap,
-  Award,
-  ShoppingBag,
   Star,
-  Filter,
-  Search,
-  Heart,
-  Eye,
-  Globe,
   Languages,
   ChevronDown,
   Quote,
   MapPin,
   Calendar,
-  Users,
   TrendingUp,
   Sparkles,
   Rocket,
   Target,
   CheckCircle,
   ArrowUp,
-  ChevronRight,
   Briefcase,
   GraduationCap,
   Trophy,
@@ -90,7 +80,7 @@ function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const [projectFilter, setProjectFilter] = useState("all");
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm] = useState("");
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [language, setLanguage] = useState<"en" | "hi">("en");
   const [languageDropdown, setLanguageDropdown] = useState(false);
@@ -378,7 +368,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिमान सिस्ट�� बनाता हूं जो सोचते हैं, सहायता करते हैं और प्रभावित करते हैं।",
+          "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायता करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करें",
       },
