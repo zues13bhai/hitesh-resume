@@ -147,7 +147,7 @@ const ShapeBlur: React.FC<ShapeBlurProps> = ({
     const mesh = new THREE.Mesh(geometry, material);
     scene.add(mesh);
 
-    mountRef.current.appendChild(renderer.domElement);
+    currentMount.appendChild(renderer.domElement);
 
     // Mouse interaction
     const handleMouseMove = (event: MouseEvent) => {
