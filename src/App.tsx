@@ -373,7 +373,7 @@ function App() {
         contact: "संपर्क",
       },
       hero: {
-        greeting: "नमस्ते, मैं हितेश सिवाच हूं",
+        greeting: "न���स्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
           "बुद्धिमान सिस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
@@ -937,6 +937,20 @@ function App() {
         >
           <GridMotion
             items={[
+              projects[0]?.image ||
+                "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=400&q=80",
+              projects[1]?.image ||
+                "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=400&q=80",
+              projects[2]?.image ||
+                "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=400&q=80",
+              projects[3]?.image ||
+                "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=400&q=80",
+              projects[4]?.image ||
+                "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+              projects[5]?.image ||
+                "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80",
+              projects[6]?.image ||
+                "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=400&q=80",
               "🚀",
               "⚡",
               "🌟",
@@ -959,7 +973,7 @@ function App() {
               "⭐",
               "🌙",
             ]}
-            gradientColor="rgba(59, 130, 246, 0.1)"
+            gradientColor="rgba(59, 130, 246, 0.3)"
           />
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <motion.div
