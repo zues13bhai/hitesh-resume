@@ -772,7 +772,7 @@ function App() {
 
                 <motion.button
                   onClick={() => window.open("#", "_blank")}
-                  className="px-8 py-4 border-2 border-gray-400 dark:border-gray-600 rounded-full font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2"
+                  className="px-8 py-4 border-2 border-gray-400 dark:border-gray-700 rounded-full font-semibold hover:bg-gray-100 dark:hover:bg-gray-900 transition-all duration-300 flex items-center space-x-2"
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
                 >
