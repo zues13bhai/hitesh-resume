@@ -153,7 +153,7 @@ const ShapeBlur: React.FC<ShapeBlurProps> = ({
     const handleMouseMove = (event: MouseEvent) => {
       if (!materialRef.current) return;
 
-      const rect = mountRef.current?.getBoundingClientRect();
+      const rect = currentMount?.getBoundingClientRect();
       if (!rect) return;
 
       const x = (event.clientX - rect.left) / rect.width;
