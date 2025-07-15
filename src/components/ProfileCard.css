@@ -385,6 +385,7 @@
   ) !important;
   z-index: 5;
   mix-blend-mode: luminosity;
+  margin-bottom: 3px;
 }
 
 .pc-details {
