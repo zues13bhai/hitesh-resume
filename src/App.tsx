@@ -376,7 +376,7 @@ function App() {
         greeting: "नमस्ते, मैं हितेश सिवाच हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
-          "बुद्धिमान ���िस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
+          "बुद्धिमा�� ���िस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
         cta: "मेरा काम देखें",
         cta2: "रिज्यूमे डाउनलोड करे���",
       },
@@ -1481,7 +1481,7 @@ function App() {
         {/* Testimonials Section */}
         <section
           id="testimonials"
-          className="py-20 bg-gray-50 dark:bg-gray-800/50 relative"
+          className="py-20 bg-gray-50 dark:bg-gray-950/80 relative"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
