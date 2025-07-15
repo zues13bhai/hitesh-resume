@@ -647,17 +647,31 @@ function App() {
             />
           </div>
 
-          {/* Centered orb behind text */}
+          {/* Centered cosmic orb behind text */}
           <div className="absolute inset-0 z-5 flex items-center justify-center">
-            <div className="w-[800px] h-[800px] opacity-80">
+            <div className="w-[900px] h-[900px] opacity-90">
               <Orb
-                hue={240}
-                hoverIntensity={0.6}
+                hue={260}
+                hoverIntensity={0.8}
                 rotateOnHover={true}
                 forceHoverState={false}
               />
             </div>
           </div>
+
+          {/* Additional cosmic glow effect */}
+          <div
+            className="absolute inset-0 z-1"
+            style={{
+              background: `
+              radial-gradient(circle at center,
+                rgba(138, 43, 226, 0.1) 0%,
+                rgba(75, 0, 130, 0.05) 30%,
+                transparent 70%
+              )
+            `,
+            }}
+          />
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <motion.div
@@ -1767,7 +1781,7 @@ function App() {
               "💼",
               "📧",
               "🤝",
-              "🎯",
+              "���",
               "💡",
               "🌈",
               "⚡",
