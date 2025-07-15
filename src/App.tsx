@@ -29,6 +29,9 @@ import {
   Download,
 } from "lucide-react";
 import Orb from "./components/Orb";
+import GridMotion from "./components/GridMotion";
+import ShapeBlur from "./components/ShapeBlur";
+import ProfileCard from "./components/ProfileCard";
 
 interface Project {
   title: string;
