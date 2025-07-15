@@ -373,7 +373,7 @@ function App() {
         contact: "संपर्क",
       },
       hero: {
-        greeting: "नमस्ते, मैं हितेश सिवाच हूं",
+        greeting: "नमस्ते, मैं हितेश सिव��च हूं",
         title: "AI इंजीनियर और फुल-स्टैक डेवलपर",
         subtitle:
           "बुद्धिमान ���िस्टम बनाता हूं जो सोचते हैं, सहायत�� करते हैं और प्रभावित करते हैं।",
@@ -508,7 +508,7 @@ function App() {
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
-                        className="absolute right-0 mt-2 w-24 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden"
+                        className="absolute right-0 mt-2 w-24 bg-white dark:bg-gray-950 rounded-lg shadow-lg border border-gray-200 dark:border-gray-800 overflow-hidden"
                       >
                         <button
                           onClick={() => {
