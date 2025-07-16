@@ -213,7 +213,7 @@ function App() {
     {
       title: "Drive Coordinator",
       company: "T&P Cell, GJUST Hisar",
-      duration: "2023 - 2024",
+      duration: "2025",
       description:
         "Led placement drives and coordinated between students and recruiting companies. Managed communication workflows and helped 50+ students secure internships and job offers.",
       skills: [
@@ -227,7 +227,7 @@ function App() {
     {
       title: "B.Tech Computer Science (AI/ML)",
       company: "GJUST, Hisar",
-      duration: "2021 - 2025",
+      duration: "2024 - 2028",
       description:
         "Specialized in Artificial Intelligence and Machine Learning with focus on practical applications. Maintained strong academic performance while building real-world projects.",
       skills: [
